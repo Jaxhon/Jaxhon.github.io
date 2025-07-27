@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.0.175:3000/jo/portfolio-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "tailwindcss": "^4.1.11"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11"
+  }
+}

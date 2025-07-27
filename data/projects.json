@@ -1,0 +1,91 @@
+{
+  "Code": [    
+    {
+      "title": "This website",
+      "description": "Press f12 to view this",
+      "image": "assets/code.png"
+    }
+  ],
+  "games": [
+    {
+      "title": "Move & Die",
+      "description": "Unreleased game project, developed in Unity.",
+      "image": "assets/dragon_rigged.png",
+      "url": "projects/moveanddie.html"
+    },
+    {
+      "title": "Saivu",
+      "description": "A game based on Sami religion, also unreleased voi voi.",
+      "image": "assets/dragon_rigged.png"
+    },
+    {
+      "title": "Glitch'n Die",
+      "description": "The result from a gamejam in 2019",
+      "image": "assets/dragon_rigged.png"
+    }
+  ],
+  "3d": [
+    {
+      "title": "Rigged dragon",
+      "description": "A rigged character with facial expressions",
+      "image": "assets/dragon_rigged.png"
+    },
+    {
+      "title": "Misc Space Ships",
+      "description": "Hobby projects made over time.",
+      "image": "assets/vallhala_overview01.png"
+    },
+    {
+      "title": "Prop",
+      "description": "This is a gun.",
+      "image": "assets/revolver_freestyle3.png"
+    },
+        {
+      "title": "Smart wristband",
+      "description": "This is a gun.",
+      "image": "https://cdna.artstation.com/p/assets/images/images/048/398/720/large/johan-pavel-mathisen-salcircasing003.jpg?1649931548"
+    }
+    
+  ],
+  "2D animation":[
+        {
+      "title": "Gary, the Falcon",
+      "description": "",
+      "image": "https://cdnb.artstation.com/p/assets/images/images/023/804/395/large/johan-pavel-mathisen-garytest04.jpg?1580391965"
+    }     ,   {
+      "title": "Trifecta wizard",
+      "description": "",
+      "image": "https://cdnb.artstation.com/p/assets/images/images/023/245/657/large/johan-mathisen-trifectaspritesheet.jpg?1578578656"
+    },{
+      "title": "Player and enemies from the game Glitch'n Die",
+      "description": "",
+      "image": "https://cdnb.artstation.com/p/assets/images/images/023/240/723/large/johan-mathisen-glitchndie.jpg?1578565196"
+    },{
+      "title": "Turtle bomb",
+      "description": "",
+      "image": "https://cdna.artstation.com/p/assets/images/images/023/631/008/large/johan-mathisen-bombtortoise.jpg?1579823070"
+    }
+  ],
+
+  
+  "art": [
+    {
+      "title": "Maps",
+      "description": "this is a map",
+      "image": "assets/SolitaryIsland007_compressed2.png"
+    },    
+    {
+      "title": "Maps",
+      "description": "this is another map",
+      "image": "https://cdna.artstation.com/p/assets/images/images/023/455/004/large/johan-mathisen-kongeria10-compressed.jpg?1579255481"
+    },    {
+      "title": "Character concepts from a game",
+      "description": "this is actually a map",
+      "image": "https://cdna.artstation.com/p/assets/images/images/023/517/222/large/johan-mathisen-purgatory-bearcult04.jpg?1579472425"
+    }, {
+      "title": "Downtime cleric",
+      "description": "Fantasy cleric concentrating on a spell",
+      "image": "https://cdna.artstation.com/p/assets/images/images/021/887/660/large/johan-mathisen-ianwarinthediviner.jpg?1573318260"
+    }
+  ]
+}
