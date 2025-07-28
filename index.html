@@ -5,34 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio</title>
   <link rel="stylesheet" href="src/output.css">
-
-  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-  <!-- <link href="src/output.css" rel="stylesheet">  -->
 </head>
 <div id="imageModal" class="fixed inset-0 bg-black/70 flex items-center justify-center z-50 hidden">
   <img id="modalImage" src="" class="max-w-[90vw] max-h-[90vh] rounded shadow-lg" />
 </div>
 
-<body class="bg-ash_gray-900 text-ash_gray-100 font-sans">
-  <header class=" shadow p-6">
+<body class="bg-ash_gray text-ash_gray-100 font-sans">
+  <header class="bg-jasmine-500 text-bistre-100 shadow p-6">
     <h1 class="text-3xl font-bold text-center">Portfolio</h1>
   </header>
+  
 
   <main class="p-6 max-w-6xl mx-auto space-y-8">
-    <section class="!bg-bistre-800 p-6 rounded shadow">
+    <section class="!bg-tan p-6 rounded shadow">
       <h2 class="text-2xl font-semibold mb-2 text-jasmine-100">About Me</h2>
       <p class="text-tan-100">I am a developer.</p>
     </section>
     
 
-    <section id="project-sections" class="space-y-12 mt-8"></section>
-    <!-- Project cards will be injected here -->
+    <section id="project-sections" class="space-y-12 mt-8 bg-ash_gray-200 p-4 rounded shadow">
+      <!-- Project cards will be injected here -->
     </section>
   </main>
 
-  <footer class="text-center text-sm text-gray-500 p-4">
+  <footer class="bg-light_blue-500 text-bistre-900 text-center text-sm p-4 mt-10">
     &copy; 2025 Mathisen Media Lab ENK <br> johanpmathisen@gmail.com
-  </footer>
+  </footer>  
   <script src="script.js"></script>
 </body>
 </html>
