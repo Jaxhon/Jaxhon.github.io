@@ -3,46 +3,47 @@
     {
       "title": "This website",
       "description": "Press f12 to view this",
-      "image": "assets/code.png"
+      "image": "assets/images/code.png"
     }
   ],
   "games": [
     {
       "title": "Move & Die",
       "description": "Unreleased game project, developed in Unity.",
-      "image": "assets/dragon_rigged.png",
+      "image": "assets/images/dragon_rigged.png",
       "url": "projects/moveanddie.html"
     },
     {
       "title": "Saivu",
-      "description": "A game based on Sami religion, also unreleased voi voi.",
-      "image": "assets/dragon_rigged.png"
+      "description": "A game based on Sami mythology, also unreleased voi voi.",
+      "image": "assets/images/dragon_rigged.png"
     },
     {
       "title": "Glitch'n Die",
       "description": "The result from a gamejam in 2019",
-      "image": "assets/dragon_rigged.png"
+      "image": "assets/images/dragon_rigged.png",
+      "url":"projects/glitchn_die.html"
     }
   ],
-  "3d": [
+  "3D modeling": [
     {
       "title": "Rigged dragon",
       "description": "A rigged character with facial expressions",
-      "image": "assets/dragon_rigged.png"
+      "image": "assets/images/dragon_rigged.png"
     },
     {
       "title": "Misc Space Ships",
       "description": "Hobby projects made over time.",
-      "image": "assets/vallhala_overview01.png"
+      "image": "assets/images/vallhala_overview01.png"
     },
     {
       "title": "Prop",
       "description": "This is a gun.",
-      "image": "assets/revolver_freestyle3.png"
+      "image": "assets/images/revolver_freestyle3.png"
     },
         {
       "title": "Smart wristband",
-      "description": "This is a gun.",
+      "description": "Product design",
       "image": "https://cdna.artstation.com/p/assets/images/images/048/398/720/large/johan-pavel-mathisen-salcircasing003.jpg?1649931548"
     }
     
@@ -71,16 +72,16 @@
   "art": [
     {
       "title": "Maps",
-      "description": "this is a map",
+      "description": "This is a map",
       "image": "assets/SolitaryIsland007_compressed2.png"
     },    
     {
       "title": "Maps",
-      "description": "this is another map",
+      "description": "This is another map",
       "image": "https://cdna.artstation.com/p/assets/images/images/023/455/004/large/johan-mathisen-kongeria10-compressed.jpg?1579255481"
     },    {
       "title": "Character concepts from a game",
-      "description": "this is actually a map",
+      "description": "Character sketches for a worldbuilding project",
       "image": "https://cdna.artstation.com/p/assets/images/images/023/517/222/large/johan-mathisen-purgatory-bearcult04.jpg?1579472425"
     }, {
       "title": "Downtime cleric",

@@ -15,41 +15,40 @@ fetch('data/projects.json')
       `;
 
       const grid = section.querySelector('div');
-      // Create a Card for each project
-
-     projects.forEach(project => {
+      
+    // Create a Card for each project
+    projects.forEach(project => {
       const card = document.createElement('div');
       card.className = `
-  border-4 
-  border-solid 
-  border-jasmine-700 
-  hover:bg-jasmine-700 
-  rounded 
-  shadow 
-  hover:shadow-lg 
-  transition 
-  duration-200 
-  transform 
-  hover:scale-[1.015] 
-  flex 
-  flex-col 
-  group 
-  overflow-hidden
-    `.trim();
+        border-4 
+        border-solid 
+        border-jasmine-700 
+        hover:bg-jasmine-700 
+        rounded 
+        shadow 
+        hover:shadow-lg 
+        transition 
+        duration-200 
+        transform 
+        hover:scale-[1.015] 
+        flex 
+        flex-col 
+        group 
+        overflow-hidden
+      `.trim();
     
-
       // Image
       const imgEl = document.createElement('img');
       imgEl.src = project.image;
       imgEl.alt = project.title;
       imgEl.className = `
-      p-2
-  object-cover 
-  w-[calc(100%+2rem)] 
-  h-40 
-  self-center 
-  rounded-t
-    `.trim();
+        p-2
+        object-cover 
+        w-[calc(100%+2rem)] 
+        h-40 
+        self-center 
+        rounded-t
+      `.trim();
 
       if (!project.url) {
         imgEl.classList.add('cursor-pointer', 'hover:opacity-90');
@@ -70,18 +69,19 @@ fetch('data/projects.json')
       transition-colors 
       duration-200
     `.trim();
-          title.textContent = project.title;
+
+      title.textContent = project.title;
 
       // Description
       const desc = document.createElement('p');
-      desc.className = 'px-4 text-ash_gray-100 mb-4 flex-grow';
+      desc.className = 'px-4 text-jasmine-700 mb-4 flex-grow group-hover:text-bistre-100  ';
       desc.textContent = project.description;
 
       // Read more link
       if (project.url) {
         const link = document.createElement('a');
         link.href = project.url;
-        link.className = 'px-4 text-light_blue-200 font-medium hover:underline mt-auto';
+        link.className = 'px-4 text-light_blue-600 font-medium hover:underline mt-auto';
         link.textContent = 'Read more →';
         card.append(imgEl, title, desc, link);
       } else {
@@ -90,9 +90,7 @@ fetch('data/projects.json')
 
       grid.appendChild(card);
     });
-
-
-      container.appendChild(section);
+    container.appendChild(section);
     }
   })
   .catch(err => {
