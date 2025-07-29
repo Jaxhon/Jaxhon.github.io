@@ -10,7 +10,7 @@
     {
       "title": "Move & Die",
       "description": "Unreleased game project, developed in Unity.",
-      "image": "assets/images/dragon_rigged.png",
+      "image": "assets/images/MoveDie01.png",
       "url": "projects/moveanddie.html"
     },
     {
@@ -23,6 +23,12 @@
       "description": "The result from a gamejam in 2019",
       "image": "assets/images/dragon_rigged.png",
       "url":"projects/glitchn_die.html"
+    },
+    {
+      "title": "Trifecta",
+      "description": "Puzzle platformer",
+      "image": "assets/images/dragon_rigged.png",
+      "url":"projects/trifecta.html"
     }
   ],
   "3D modeling": [
