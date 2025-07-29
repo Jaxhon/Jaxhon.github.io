@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Glitch'n Die</title>
+  <title>Move & Die</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="/src/output.css" />
 </head>
@@ -28,7 +28,9 @@
 
         <!-- Image Gallery -->
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 h-80">
-          <img src="/assets/images/MoveDie01.png" class="rounded shadow object-cover w-full h-80" />
+          <!-- <img src="/assets/images/movedie_poster.jpeg" class="rounded shadow object-cover w-full h-80" /> -->
+          <img src="/assets/images/movedie_gameplay.png" class="rounded shadow object-cover w-full h-80" />
+          <img src="/assets/images/movedie_nftree.jpeg" class="rounded shadow object-cover w-full h-80" />
         </div>
       </section>
 
@@ -50,6 +52,29 @@
   <footer class="text-center text-sm text-ash_gray-500 mt-10">
     &copy; 2025 Mathisen Media Lab ENK
   </footer>
-
+  <!-- Image Modal -->
+  <div id="imageModal" class="fixed inset-0 bg-black/70 flex items-center justify-center z-50 hidden">
+    <img id="modalImage" src="" class="max-w-[90vw] max-h-[90vh] rounded shadow-lg" />
+  </div>
+  <script>
+    // Image click to expand
+    document.querySelectorAll("img").forEach(img => {
+      if (!img.closest("header") && !img.closest("footer")) {
+        img.classList.add("cursor-pointer", "hover:opacity-90");
+        img.addEventListener("click", () => {
+          const modal = document.getElementById("imageModal");
+          const modalImg = document.getElementById("modalImage");
+          modalImg.src = img.src;
+          modal.classList.remove("hidden");
+        });
+      }
+    });
+  
+    // Click outside to close
+    document.getElementById("imageModal").addEventListener("click", () => {
+      document.getElementById("imageModal").classList.add("hidden");
+    });
+  </script>
+  
 </body>
 </html>

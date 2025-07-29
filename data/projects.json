@@ -10,25 +10,32 @@
     {
       "title": "Move & Die",
       "description": "Unreleased game project, developed in Unity.",
-      "image": "assets/images/MoveDie01.png",
+      "image": "assets/images/movedie_poster.jpeg",
       "url": "projects/moveanddie.html"
     },
     {
       "title": "Saivu",
       "description": "A game based on Sami mythology, also unreleased voi voi.",
-      "image": "assets/images/dragon_rigged.png"
+      "image": "assets/images/saivu2_maincast.png",
+      "url":"projects/saivu.html"
     },
     {
       "title": "Glitch'n Die",
       "description": "The result from a gamejam in 2019",
-      "image": "assets/images/dragon_rigged.png",
+      "image": "assets/images/glitchndie_boss.jpeg",
       "url":"projects/glitchn_die.html"
     },
     {
       "title": "Trifecta",
       "description": "Puzzle platformer",
-      "image": "assets/images/dragon_rigged.png",
+      "image": "https://cdnb.artstation.com/p/assets/images/images/023/245/657/large/johan-mathisen-trifectaspritesheet.jpg?1578578656",
       "url":"projects/trifecta.html"
+    },
+    {
+      "title": "Gary the Falcon",
+      "description": "Action Platformer",
+      "image": "https://cdnb.artstation.com/p/assets/images/images/023/804/395/large/johan-pavel-mathisen-garytest04.jpg?1580391965",
+      "url":"projects/garythefalcon.html"
     }
   ],
   "3D modeling": [
@@ -56,7 +63,7 @@
   ],
   "2D animation":[
         {
-      "title": "Gary, the Falcon",
+      "title": "Gary the Falcon",
       "description": "",
       "image": "https://cdnb.artstation.com/p/assets/images/images/023/804/395/large/johan-pavel-mathisen-garytest04.jpg?1580391965"
     }     ,   {
@@ -79,16 +86,17 @@
     {
       "title": "Maps",
       "description": "This is a map",
-      "image": "assets/SolitaryIsland007_compressed2.png"
+      "image": "assets/images/SolitaryIsland007_compressed2.png"
     },    
     {
       "title": "Maps",
       "description": "This is another map",
       "image": "https://cdna.artstation.com/p/assets/images/images/023/455/004/large/johan-mathisen-kongeria10-compressed.jpg?1579255481"
     },    {
-      "title": "Character concepts from a game",
+      "title": "Worldbuilding project",
       "description": "Character sketches for a worldbuilding project",
-      "image": "https://cdna.artstation.com/p/assets/images/images/023/517/222/large/johan-mathisen-purgatory-bearcult04.jpg?1579472425"
+      "image": "https://cdna.artstation.com/p/assets/images/images/023/517/222/large/johan-mathisen-purgatory-bearcult04.jpg?1579472425",
+      "url":"projects/thecentralworld.html"
     }, {
       "title": "Downtime cleric",
       "description": "Fantasy cleric concentrating on a spell",
